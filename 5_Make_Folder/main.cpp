@@ -37,13 +37,7 @@ int main() {
    triangle2.SetBase(base2);
    triangle2.SetHeight(height2);
 
-   /*
-   // Calculate the area
-   double area1;
-   double area2;
-   area1 = triangle1.GetArea();
-   area2 = triangle2.GetArea();
-   */
+
 
    cout << "Triangle with smaller area:" << endl;
    
@@ -58,6 +52,12 @@ int main() {
       cout << "triangle 1" << endl;
       cout << triangle1.PrintInfo() << endl;
    } 
+   else if (area1 > area2)
+   {
+      cout << "triangle 2" << endl;
+      cout << triangle2.PrintInfo() << endl;
+   }
+   
    
    return 0;
 }
