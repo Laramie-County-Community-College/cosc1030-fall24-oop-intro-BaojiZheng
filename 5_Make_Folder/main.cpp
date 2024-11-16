@@ -33,7 +33,7 @@ int main() {
    double base2;
    double height2;
    cin >> base2;
-   cin >> height2
+   cin >> height2;
    triangle2.SetBase(base2);
    triangle2.SetHeight(height2);
 
