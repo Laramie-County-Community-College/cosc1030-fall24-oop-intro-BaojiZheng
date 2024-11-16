@@ -50,12 +50,12 @@ int main() {
    
    if (area1 < area2) {
       cout << "triangle 1" << endl;
-      cout << triangle1.PrintInfo() << endl;
+      //cout << triangle1.PrintInfo() << endl;
    } 
    else if (area1 > area2)
    {
       cout << "triangle 2" << endl;
-      cout << triangle2.PrintInfo() << endl;
+      //cout << triangle2.PrintInfo() << endl;
    }
    
    
